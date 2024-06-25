@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elearning</title>
+	<link rel="icon" type="text/css" href="images/icon.png">
+	<!-- === Bootstrap min css === -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- === style css === -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- === global css === -->
+    <link href="css/global.css" rel="stylesheet">
+	<!-- === swiper css === -->
+	  <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+  </head>
+  <body>
+     <!-- === header === -->
+     <header class="sticky-top">
+	    <nav class="navbar navbar-expand-lg bg-white py-3">
+		   <div class="container">
+			  <a class="navbar-brand" href="index.html">
+			    <img src="images/logo.png" class="h-2-5">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-start bg-sky-200" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			    <!-- === offcanvas header === -->
+				<div class="offcanvas-header justify-content-end">
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<!-- === offcanvas body === -->
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 gap-2">
+					 <!-- === home === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="index.html" data-bs-toggle="dropdown"><small>home</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="index.html"><small>home 1</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-2.html"><small>home 2</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-3.html"><small>home 3</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === about === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="about.html"><small>about</small></a>
+					 </li>
+					 <!-- === courses === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="#" data-bs-toggle="dropdown"><small>courses</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="courses.html"><small>courses</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="coursesDetails.html"><small>course details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === blog === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="blog.html" data-bs-toggle="dropdown"><small>blog</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blog.html"><small>blog</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blogDetails.html"><small>blog details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === events === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="events.html" data-bs-toggle="dropdown"><small>events</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="events.html"><small>events</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="eventsDetails.html"><small>events details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === pages === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="pricing.html" data-bs-toggle="dropdown"><small>pages</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="pricing.html"><small>pricing</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="trems&_condition.html"><small>terms & conditions</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="login.html"><small>login</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="singUp.html"><small>sing up</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="#"><small>thank you</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === contact === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="contact.html"><small>contact</small></a>
+					 </li>
+					 <!-- === login btn === -->
+					 <li class="nav-item p-0">
+					   <a class="btn border border-warning rounded-2
+					   text-dark-blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><small>Login</small></a>
+					   <!-- Modal -->
+					   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+							<div class="modal-content">
+							  <div class="modal-body">
+								<form action="" method="post">
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Email</label>
+									<input type="email" class="form-control rounded-0 box-shadow-none" placeholder="08wasti@gmail.com">
+								  </div>
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Password</label>
+									<input type="password" class="form-control rounded-0 box-shadow-none" placeholder="Password">
+								  </div>
+								  <div class="mb-4 form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Remember Password</label>
+								  </div>
+								  <button type="submit" class="btn btn-sm fw-medium bg-gradient-yellow border-0 rounded-pill border-0 text-white px-4  py-2 mb-4">Login</button><br>
+								  <span class="text-dark">Don’t have an account?<a href="singUp.html" class="text-danger text-decoration-none"> Signup Now</a></span>
+							   </form>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							  </div>
+							</div>
+					    </div>
+					  </div>
+					 </li>
+				  </ul>
+				</div>
+			  </div>
+		   </div>
+		</nav>
+	 </header>
+	 <main>
+	    <!-- === about us banar === -->
+		<section class="bg-cover bg-no-repeat bg-position-center" style="background-image:linear-gradient(#000000ad,#000000a3),url(images/about_us_banar.jpg)">
+		   <div class="container">
+		     <div class="row justify-content-center text-center py-4 py-sm-5">
+			   <h1 class="text-white fw-bold text-capitalize">
+			   about us</h1>
+			   <div>
+			     <a href="index.html" class="text-decoration-none text-white-50 fw-medium">Home</a>
+				 <span class="text-white mx-1">/</span>
+			     <a href="about.html" class="text-decoration-none text-white fw-medium">About us</a>
+			   </div>
+			 </div>
+		   </div>
+		</section> 
+		<!-- === about us === -->
+		<section>
+		   <div class="container">
+			  <div class="row justify-content-center text-center mb-5">
+			     <div class="col-lg-7 col-md-10">
+			       <h6 class="text-uppercase mb-4 text-danger" style="letter-spacing: 2px;">about us</h6>
+				   <h1 class="text-dark-blue fw-bold">Educating and empowering the community</h1>
+			     </div>
+			  </div>
+			  <div class="row row-gap-4">
+			    <div class="col-md-6">
+				  <h3 class="text-dark-blue fw-bold">
+				  Educating and empowering the community</h3>
+				  <p class="text-secondary fw-medium mb-4"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</small></p>
+				  <h5 class="text-dark-blue fw-bold">
+				  Dolor sit amet consectetur adipisicing elit. Unde, quasi.</h5>
+				  <p class="text-secondary fw-medium mb-0"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled<br>Lorem Ipsum has been the industry's standard dummy text ever since the1500s, when an unknown printer took a galley of type and scrambled</small></p>
+				</div>
+				<div class="col-md-6">
+				  <iframe class="object-fit-cover" width="100%" height="315" src="https://www.youtube.com/embed/DHGhFJZLKMs?si=Xc0AOYbNdap_eSYu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			  </div>
+		   </div>
+		</section>	
+		<!-- === Our Sponsors === -->
+		<section>
+		   <div class="container">
+		     <h1 class="text-dark-blue fw-bold text-center mb-5">Our Sponsors</h1>
+		     <div class="swiper populer-course">
+				<div class="swiper-wrapper">
+				  <!-- === slider-1 === -->
+				  <div class="swiper-slide">
+				    <div class="card h-100 border-0">
+					  <a href="#">
+					    <img src="images/sp-1.png" class="img-fluid">
+					  </a>
+					</div>
+				  </div>
+				  <!-- === slider-2 === -->
+				  <div class="swiper-slide">
+				    <div class="card h-100 border-0">
+					  <a href="#">
+					    <img src="images/sp-2.png" class="img-fluid">
+					  </a>
+					</div>
+				  </div>
+				  <!-- === slider-3 === -->
+				  <div class="swiper-slide">
+				    <div class="card h-100 border-0">
+					  <a href="#">
+					    <img src="images/sp-3.png" class="img-fluid">
+					  </a>
+					</div>
+				  </div>
+				  <!-- === slider-4 === -->
+				  <div class="swiper-slide">
+				    <div class="card h-100 border-0">
+					  <a href="#">
+					    <img src="images/sp-4.png" class="img-fluid">
+					  </a>
+					</div>
+				  </div>
+				  <!-- === slider-5 === -->
+				  <div class="swiper-slide">
+				    <div class="card h-100 border-0">
+					  <a href="#">
+					    <img src="images/sp-1.png" class="img-fluid">
+					  </a>
+					</div>
+				  </div>
+				  <!-- === slider-6 === -->
+				  <div class="swiper-slide">
+				    <div class="card h-100 border-0">
+					  <a href="#">
+					    <img src="images/sp-1.png" class="img-fluid">
+					  </a>
+					</div>
+				  </div>
+				</div>
+				<div class="swiper-button-next w-2-5 h-2-5 bg-gradient-yellow rounded-circle">
+				  <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+				</div>
+				<div class="swiper-button-prev w-2-5 h-2-5 bg-gradient-yellow rounded-circle">
+				  <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 320 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+				</div>
+			  </div>
+		   </div>
+		</section>	
+	 </main>
+	 <!-- === footer === -->
+	 <footer>
+	    <section class="bg-sky-400">
+		   <div class="container">
+		     <div class="row row-gap-4 justify-content-center">
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information for</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective undergraduates</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective graduate students</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Businesses/Partnerships</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Visitors/Tourists</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Parliamentarians</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Quick Links</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Contact Searches</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Jobs and Vacancies</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>University images</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Policy</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Terms and Conditions</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information About</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Strategic Plan</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Fees and Funding</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Museums and collections</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Statement on Modern Slavery</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Data privacy / GDPR</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Security Brand</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Statement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Copyright Infringement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Security Issue</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Trademark Notice</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Access Control</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			 </div>
+		   </div>
+		</section>
+		<section class="pt-3 pb-3 bg-white">
+		   <div class="container">
+		     <div class="row text-center">
+			   <p class="text-muted mb-0">&copy;2024 all right reseved by <a href="#" class="text-danger text-decoration-none">Wazihatulla Wasti</a></p>
+			 </div>
+		   </div>
+		</section>   
+	 </footer>
+	 <!-- === Bootstrap min js === -->
+     <script src="js/bootstrap.min.js"></script>
+	 <!-- === swiper js === -->
+	 <script src="js/swiper-bundle.min.js"></script>
+	 <script>
+		var swiper = new Swiper(".populer-course", {
+		  slidesPerView: 1,
+		  spaceBetween: 10,
+		  autoplay:true,
+		   navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		  },
+		  breakpoints: {
+			576: {
+			  slidesPerView: 2,
+			  spaceBetween: 20,
+			},
+			768: {
+			  slidesPerView: 2,
+			  spaceBetween: 20,
+			},
+			1200: {
+			  slidesPerView: 4,
+			  spaceBetween: 30,
+			},
+		  },
+		});
+	 </script>
+  </body>
+</html>

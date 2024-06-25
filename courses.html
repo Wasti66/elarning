@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elearning</title>
+	<link rel="icon" type="text/css" href="images/icon.png">
+	<!-- === Bootstrap min css === -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- === style css === -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- === global css === -->
+    <link href="css/global.css" rel="stylesheet">
+	<!-- === swiper css === -->
+	  <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+  </head>
+  <body>
+     <!-- === header === -->
+     <header class="sticky-top">
+	    <nav class="navbar navbar-expand-lg bg-white py-3">
+		   <div class="container">
+			  <a class="navbar-brand" href="index.html">
+			    <img src="images/logo.png" class="h-2-5">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-start bg-sky-200" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			    <!-- === offcanvas header === -->
+				<div class="offcanvas-header justify-content-end">
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<!-- === offcanvas body === -->
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 gap-2">
+					 <!-- === home === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="index.html" data-bs-toggle="dropdown"><small>home</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="index.html"><small>home 1</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-2.html"><small>home 2</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-3.html"><small>home 3</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === about === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="about.html"><small>about</small></a>
+					 </li>
+					 <!-- === courses === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="#" data-bs-toggle="dropdown"><small>courses</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="courses.html"><small>courses</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="coursesDetails.html"><small>course details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === blog === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="blog.html" data-bs-toggle="dropdown"><small>blog</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blog.html"><small>blog</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blogDetails.html"><small>blog details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === events === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="#" data-bs-toggle="dropdown"><small>events</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="eventsDetails.html"><small>events</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="eventsDetails.html"><small>events details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === pages === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="pricing.html" data-bs-toggle="dropdown"><small>pages</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="pricing.html"><small>pricing</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="trems&_condition.html"><small>terms & conditions</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="login.html"><small>login</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="singUp.html"><small>sing up</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="#"><small>thank you</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === contact === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="contact.html"><small>contact</small></a>
+					 </li>
+					 <!-- === login btn === -->
+					 <li class="nav-item p-0">
+					   <a class="btn border border-warning rounded-2
+					   text-dark-blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><small>Login</small></a>
+					   <!-- Modal -->
+					   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+							<div class="modal-content">
+							  <div class="modal-body">
+								<form action="" method="post">
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Email</label>
+									<input type="email" class="form-control rounded-0 box-shadow-none" placeholder="08wasti@gmail.com">
+								  </div>
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Password</label>
+									<input type="password" class="form-control rounded-0 box-shadow-none" placeholder="Password">
+								  </div>
+								  <div class="mb-4 form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Remember Password</label>
+								  </div>
+								  <button type="submit" class="btn btn-sm fw-medium bg-gradient-yellow border-0 rounded-pill border-0 text-white px-4  py-2 mb-4">Login</button><br>
+								  <span class="text-dark">Don’t have an account?<a href="singUp.html" class="text-danger text-decoration-none"> Signup Now</a></span>
+							   </form>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							  </div>
+							</div>
+					    </div>
+					   </div>
+					 </li>
+				  </ul>
+				</div>
+			  </div>
+		   </div>
+		</nav>
+	 </header>
+	 <main>
+	    <!-- === Courses banar === -->
+		<section class="bg-cover bg-no-repeat bg-position-center" style="background-image:linear-gradient(#000000ad,#000000a3),url(images/about_us_banar.jpg)">
+		   <div class="container">
+		     <div class="row justify-content-center text-center py-4 py-sm-5">
+			   <h1 class="text-white fw-bold text-capitalize">
+			   courses</h1>
+			   <div>
+			     <a href="index.html" class="text-decoration-none text-white-50 fw-medium">Home</a>
+				 <span class="text-white mx-1">/</span>
+			     <a href="courses.html" class="text-decoration-none text-white fw-medium">Courses</a>
+			   </div>
+			 </div>
+		   </div>
+		</section> 
+		<!-- === populer Courses === -->
+		<section>
+		   <div class="container">
+			  <div class="row row-gap-4">
+			      <!-- === populer course-1 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/course_1.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Advance CSS3 animations</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-2 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/course_2.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Advance CSS3 animations</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-3 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/course_3.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Advance CSS3 animations</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-4 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/course_4.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Aplied Physics application</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-5 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/courses_5.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Introduction to quantum mechanics</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-7 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/courses_6.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Chemistry periodic table</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-8 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/courses_8.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Telecommunication systems</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-9 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/courses_9.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Marketing management strategies</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+				  <!-- === populer course-10 === -->
+				  <div class="col-md-4 col-sm-6">
+				    <div class="card h-100">
+					   <div class="card rounded-1 shadow-sm border-0">
+						  <img src="images/course_1.jpg" class="card-img">
+						  <div class="card-img-overlay">
+							<h5 class="text-center font-bold text-dark mb-0 bg-warning p-1" style="width:5rem;">$23.3</h5>
+						  </div>
+					   </div>
+					   <!-- === Popular Courses body content === -->
+					   <div class="card-body">
+					      <h5 class="fw-bold">
+						    <a href="#" class="text-dark text-decoration-none hover-red transition-all-500">Advance CSS3 animations</a>
+						  </h5>
+						  <p class="text-dark-blue mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+					   </div>
+					   <!-- === Popular Courses card footer === -->
+					   <div class="card-footer d-flex align-items-center justify-content-between border-0 bg-transparent mb-2">
+					     <div class="d-flex align-items-center">
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"/></svg>
+						   <p class="text-muted mb-0 fw-semibold ms-2"><small>130 views</small></p>
+						 </div>
+						 <!-- === enroll link === -->
+						 <a href="#" class="fw-semibold text-white text-uppercase bg-gradient-yellow btn border-0 rounded-0"><small>enroll now</small></a>
+					   </div>
+					</div>
+				  </div>
+			  </div>
+			  <hr class="my-5">
+			  <!-- === Pagination === -->
+			  <nav aria-label="Page navigation example">
+				<ul class="pagination">
+				  <li class="page-item mx-1">
+					  <a class="page-link fw-semibold text-dark border border-dark" href="#">Previous</a>
+					</li>
+				  <li class="page-item mx-1"><a class="page-link text-body-secondary border border-body-tertiary" href="#">1</a></li>
+				  <li class="page-item mx-1"><a class="page-link text-body-secondary border border-body-tertiary" href="#">2</a></li>
+				  <li class="page-item mx-1"><a class="page-link text-body-secondary border border-body-tertiary" href="#">3</a></li>
+				  <li class="page-item mx-1 ">
+					  <a class="page-link text-body-secondary border border-body-tertiary" href="#">Next</a>
+					</li>
+				</ul>
+			  </nav>
+		   </div>
+		</section>	
+	 </main>
+	 <!-- === footer === -->
+	 <footer>
+	    <section class="bg-sky-400">
+		   <div class="container">
+		     <div class="row row-gap-4 justify-content-center">
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information for</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective undergraduates</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective graduate students</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Businesses/Partnerships</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Visitors/Tourists</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Parliamentarians</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Quick Links</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Contact Searches</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Jobs and Vacancies</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>University images</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Policy</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Terms and Conditions</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information About</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Strategic Plan</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Fees and Funding</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Museums and collections</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Statement on Modern Slavery</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Data privacy / GDPR</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Security Brand</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Statement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Copyright Infringement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Security Issue</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Trademark Notice</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Access Control</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			 </div>
+		   </div>
+		</section>
+		<section class="pt-3 pb-3 bg-white">
+		   <div class="container">
+		     <div class="row text-center">
+			   <p class="text-muted mb-0">&copy;2024 all right reseved by <a href="#" class="text-danger text-decoration-none">Wazihatulla Wasti</a></p>
+			 </div>
+		   </div>
+		</section>   
+	 </footer>
+	 <!-- === Bootstrap min js === -->
+     <script src="js/bootstrap.min.js"></script>
+	 <!-- === swiper js === -->
+	 <script src="js/swiper-bundle.min.js"></script>
+  </body>
+</html>

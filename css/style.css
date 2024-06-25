@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+section{
+	padding-top:75px;
+	padding-bottom:75px;
+}
+.CoursesDetails-tabs .nav-link.active{
+	background: linear-gradient(90deg,#ef3e0f,#ffb800)!important;
+	color:white;
+}
+.CoursesDetails-tabs .nav-link{
+	color:#000;
+}
+.CoursesDetails-tabs .nav-link:hover{
+	border-color: rgba(0,0,0,0)!important;
+}
+/*-- === modals === -- */
+.modal-backdrop {
+    --bs-backdrop-zindex: 10!important;
+}	
+/* -- === home-3 === -- */
+.card-hover:hover .reg{
+	background: linear-gradient(90deg,#ef3e0f,#ffb800);
+}

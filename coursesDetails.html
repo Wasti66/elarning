@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elearning</title>
+	<link rel="icon" type="text/css" href="images/icon.png">
+	<!-- === Bootstrap min css === -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- === style css === -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- === global css === -->
+    <link href="css/global.css" rel="stylesheet">
+	<!-- === swiper css === -->
+	  <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+  </head>
+  <body>
+     <!-- === header === -->
+     <header class="sticky-top">
+	    <nav class="navbar navbar-expand-lg bg-white py-3">
+		   <div class="container">
+			  <a class="navbar-brand" href="index.html">
+			    <img src="images/logo.png" class="h-2-5">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-start bg-sky-200" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			    <!-- === offcanvas header === -->
+				<div class="offcanvas-header justify-content-end">
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<!-- === offcanvas body === -->
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 gap-2">
+					 <!-- === home === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="index.html" data-bs-toggle="dropdown"><small>home</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="index.html"><small>home 1</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-2.html"><small>home 2</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-3.html"><small>home 3</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === about === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="about.html"><small>about</small></a>
+					 </li>
+					 <!-- === courses === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="#" data-bs-toggle="dropdown"><small>courses</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="courses.html"><small>courses</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="coursesDetails.html"><small>course details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === blog === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="blog.html" data-bs-toggle="dropdown"><small>blog</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blog.html"><small>blog</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blogDetails.html"><small>blog details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === events === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="#" data-bs-toggle="dropdown"><small>events</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="#"><small>events</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="eventsDetails.html"><small>events details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === pages === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="pricing.html" data-bs-toggle="dropdown"><small>pages</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="pricing.html"><small>pricing</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="trems&_condition.html"><small>terms & conditions</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="login.html"><small>login</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="singUp.html"><small>sing up</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="#"><small>thank you</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === contact === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="contact.html"><small>contact</small></a>
+					 </li>
+					 <!-- === login btn === -->
+					 <li class="nav-item p-0">
+					   <a class="btn border border-warning rounded-2
+					   text-dark-blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><small>Login</small></a>
+					   <!-- Modal -->
+					   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+							<div class="modal-content">
+							  <div class="modal-body">
+								<form action="" method="post">
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Email</label>
+									<input type="email" class="form-control rounded-0 box-shadow-none" placeholder="08wasti@gmail.com">
+								  </div>
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Password</label>
+									<input type="password" class="form-control rounded-0 box-shadow-none" placeholder="Password">
+								  </div>
+								  <div class="mb-4 form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Remember Password</label>
+								  </div>
+								  <button type="submit" class="btn btn-sm fw-medium bg-gradient-yellow border-0 rounded-pill border-0 text-white px-4  py-2 mb-4">Login</button><br>
+								  <span class="text-dark">Don’t have an account?<a href="singUp.html" class="text-danger text-decoration-none"> Signup Now</a></span>
+							   </form>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							  </div>
+							</div>
+					    </div>
+					   </div>
+					 </li>
+				  </ul>
+				</div>
+			  </div>
+		   </div>
+		</nav>
+	 </header>
+	 <main>
+	    <!-- === Courses banar === -->
+		<section class="bg-cover bg-no-repeat bg-position-center" style="background-image:linear-gradient(#000000ad,#000000a3),url(images/about_us_banar.jpg)">
+		   <div class="container">
+		     <div class="row justify-content-center text-center py-4 py-sm-5">
+			   <h1 class="text-white fw-bold text-capitalize">
+			   courses details</h1>
+			   <div>
+			     <a href="index.html" class="text-decoration-none text-white-50 fw-medium">Home</a>
+				 <span class="text-white mx-1">/</span>
+			     <a href="courses.html" class="text-decoration-none text-white fw-medium">Courses details</a>
+			   </div>
+			 </div>
+		   </div>
+		</section> 
+		<!-- === Courses details === -->
+		<section>
+		   <div class="container">
+			  <div class="row row-gap-4">
+			    <!-- === Courses details blog side === -->
+				<div class="col-md-8">
+				  <div class="card border-0 mb-4">
+				    <img src="images/course.jpg" class="card-img-top mb-4 rounded-0">
+					<div class="card-body border rounded-1">
+					  <!-- === heading === -->
+					  <div class="d-flex align-items-center">
+					    <div class="flex-shrink-0">
+						  <h2 class="text-dark-blue fw-bold me-2">
+					      HTML5 for beginners</h2>
+						</div>
+						<span class="badge text-bg-warning 
+						text-dark rounded-1"><small><svg fill="#000" height="0.8rem" style="margin-top:-3px;" class="me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 80V229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7H48C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>Hot & new</small></span>
+					  </div>
+					  <p class="text-dark-blue fw-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+					  <div class="d-flex align-items-center">
+					    <span class="text-secondary fw-medium" style="font-size:13px;">By <a href="#" class="text-decoration-none text-danger">Wasti</a></span>
+						<span class="text-secondary mx-sm-2 mx-1" style="font-size:13px;">|</span>
+						<span class="text-secondary fw-medium" style="font-size:13px;">Last update 12 Sep. 2023</span>
+						<span class="text-secondary mx-sm-2 mx-1" style="font-size:13px;">|</span>
+						<svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"></path></svg>
+						<svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"></path></svg>
+						<svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"></path></svg>
+						<svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"></path></svg>
+						<svg fill="#f98f05" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 576 512"><path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z"></path></svg>
+						<span class="text-secondary fw-medium ms-md-2 ms-1" style="font-size:13px;"><small>Last update 12 Sep. 2023</small></span>
+						<span class="text-secondary mx-sm-2 mx-1" style="font-size:13px;">|</span>
+					  </div>
+					</div>
+				  </div>
+				   <!-- === Courses details nav tabs === -->
+				  <ul class="nav nav-pills nav-justified border-0 CoursesDetails-tabs bg-body-secondary table" id="myTab" role="tablist">
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link active rounded-0 fw-semibold border-0 py-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Overview</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link rounded-0 fw-semibold border-0 py-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Curriculum</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link rounded-0 fw-semibold border-0 py-3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Course Objective</button>
+					  </li>
+				  </ul>
+					<!-- === nav tabs contant === -->
+					<div class="tab-content card card-body rounded-0 border-top-0" id="myTabContent">
+					  <!-- === Overview contant === -->
+					  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+					     <h3 class="text-dark-blue fw-bold mb-4 mt-2">
+					     This course includes</h3>
+					    <div class="row row-gap-4 mb-4">
+						  <div class="col-lg-6">
+						    <p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+							  <small>
+							    <svg class="me-2" fill="#212529bf" height="15" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>
+								45.9 hours on-demand video
+							  </small>
+							</p>
+							<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+							  <small>
+								<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M64 64V352H576V64H64zM0 64C0 28.7 28.7 0 64 0H576c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zM128 448H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+								Access on mobile and TV
+							  </small>
+							</p>
+							<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+							  <small>
+								<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+								Full lifetime access
+							  </small>
+							</p>
+						  </div>
+						  <div class="col-lg-6">
+						    <p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+							  <small>
+								<svg class="me-2" fill="#212529bf" height="15" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+								12 downloadable resources
+							  </small>
+							</p>
+							<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+							  <small>
+								<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"/></svg>
+								57 articles
+							  </small>
+							</p>
+							<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+							  <small>
+								<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.4-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"/></svg>
+								Certificate of Completion
+							  </small>
+							</p>
+						  </div>
+						</div>
+						<h3 class="text-dark-blue fw-bold mb-3">
+					    Description</h3>
+						<p class="text-black-50 fw-medium d-flex mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+						<h3 class="text-dark-blue fw-bold mb-3">
+					    Requirements for this course</h3>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							 Various versions have evolved over the years, sometimes.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							It has survived not only five centuries.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							It is a long established fact that a reader.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							 Various versions have evolved over the years, sometimes.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							It has survived not only five centuries.
+						  </small>
+						</p>
+					  </div>
+					  <!-- === Curriculum === -->
+					  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+					    <div class="accordion accordion-flush" id="accordionFlushExample">
+						  <div class="accordion-item">
+							<button class="w-100 border-0 collapsed box-shadow-none bg-body-secondary d-flex justify-content-between align-items-center p-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							  <span class="text-dark fw-medium h6 mb-0">Introduction to basic HTML</span>	
+							  <span class="text-dark fw-medium"><small>7 Lectures</small></span>	
+							</button>
+							<!-- === contant === -->
+							<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+							  <div class="accordion-body">
+							    <p class="text-black-50 fw-medium d-flex align-items-start mb-3">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									HTML Elements
+								  </small>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									HTML Attributes
+								  </small>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Nested HTML Elements</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Headings Are Important</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Don't Forget the End Tag</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Source codes</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+							  </div>
+							</div>
+						  </div>
+						  <div class="accordion-item">
+							<button class="w-100 border-0 collapsed box-shadow-none bg-body-secondary d-flex justify-content-between align-items-center p-3" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+							  <span class="text-dark fw-medium h6 mb-0">HTML5 features</span>	
+							  <span class="text-dark fw-medium"><small>8 Lectures</small></span>	
+							</button>
+							<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+							  <div class="accordion-body">
+							    <p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Source codes</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Source codes</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Source codes</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+								<p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Source codes</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+							    <p class="text-black-50 fw-medium d-flex align-items-start mb-3 d-flex align-items-center justify-content-between">
+								  <small>
+									<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-top:-3px;"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+									<span>Source codes</span>
+								  </small>
+								  <svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+								</p>
+							  </div>
+							</div>
+						  </div>
+						  <div class="accordion-item">
+							<button class="w-100 border-0 collapsed box-shadow-none bg-body-secondary d-flex justify-content-between align-items-center p-3" ype="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+							  <span class="text-dark fw-medium h6 mb-0">Summary</span>	
+							  <span class="text-dark fw-medium"><small>3 Lectures</small></span>	
+							</button>
+							<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+							  <div class="accordion-body">
+							    <p>blank</p>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					  <!-- === Course Objective === -->
+					  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+					    <h3 class="text-dark-blue fw-bold mb-3">
+					    Requirements for this course</h3>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							 Various versions have evolved over the years, sometimes.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							It has survived not only five centuries.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							It is a long established fact that a reader.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							 Various versions have evolved over the years, sometimes.
+						  </small>
+						</p>
+						<p class="text-black-50 fw-medium d-flex align-items-start mb-1">
+						  <small>
+							<svg class="me-2" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>
+							It has survived not only five centuries.
+						  </small>
+						</p>
+					  </div>
+					</div>
+					<h3 class="text-dark fw-semibold mt-5 mb-5">Comments</h3>
+					<!-- === 1st Comment === -->
+					<div class="d-flex mb-4">
+					  <div class="flex-shrink-0">
+						<img src="images/tes-1.png" class="rounded-circle w-3-5 h-3-5">
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h5 class="text-dark fw-semibold mb-2">John Moxely</h5>
+						<p class="text-dark-blue fw-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+						<a href="#" class="text-decoration-none text-danger d-flex align-items-center">
+						  <svg fill="#f30d0d" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="mt-1 me-1"><path d="M297.4 9.4c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L338.7 160H128c-35.3 0-64 28.7-64 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V224C0 153.3 57.3 96 128 96H338.7L297.4 54.6c-12.5-12.5-12.5-32.8 0-45.3zm-96 256c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 416H96c-17.7 0-32 14.3-32 32v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V448c0-53 43-96 96-96H242.7l-41.4-41.4c-12.5-12.5-12.5-32.8 0-45.3z"/></svg>
+						  Replay
+						</a>
+						<hr>
+						<!-- === === -->
+						<div class="d-flex mt-4">
+						  <div class="flex-shrink-0">
+							<img src="images/tes-1.png" class="rounded-circle w-3-5 h-3-5">
+						  </div>
+						  <div class="flex-grow-1 ms-3">
+							<h6 class="text-dark fw-semibold mb-2">John Moxely</h6>
+							<p class="text-dark-blue fw-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+							<a href="#" class="text-decoration-none text-danger d-flex align-items-center">
+							  <svg fill="#f30d0d" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="mt-1 me-1"><path d="M297.4 9.4c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L338.7 160H128c-35.3 0-64 28.7-64 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V224C0 153.3 57.3 96 128 96H338.7L297.4 54.6c-12.5-12.5-12.5-32.8 0-45.3zm-96 256c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 416H96c-17.7 0-32 14.3-32 32v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V448c0-53 43-96 96-96H242.7l-41.4-41.4c-12.5-12.5-12.5-32.8 0-45.3z"/></svg>
+							  Replay
+							</a>
+							<hr>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<!-- === 2nd Comment === -->
+					<div class="d-flex">
+					  <div class="flex-shrink-0">
+						<img src="images/tes-1.png" class="rounded-circle w-3-5 h-3-5">
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h5 class="text-dark fw-semibold mb-2">John Moxely</h5>
+						<p class="text-dark-blue fw-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+						<a href="#" class="text-decoration-none text-danger d-flex align-items-center">
+						  <svg fill="#f30d0d" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="mt-1 me-1"><path d="M297.4 9.4c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L338.7 160H128c-35.3 0-64 28.7-64 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V224C0 153.3 57.3 96 128 96H338.7L297.4 54.6c-12.5-12.5-12.5-32.8 0-45.3zm-96 256c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3l-96 96c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 416H96c-17.7 0-32 14.3-32 32v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V448c0-53 43-96 96-96H242.7l-41.4-41.4c-12.5-12.5-12.5-32.8 0-45.3z"/></svg>
+						  Replay
+						</a>
+						<hr>
+					  </div>
+					</div>
+				</div>
+				<!-- === add to cart,Categories,Recent Courses side === -->
+				<div class="col-md-4">
+				  <!-- === add to cart === -->
+				  <div class="card card-body text-center rounded-1 mb-4">
+					<p class="text-dark-blue mb-1 fw-medium h1"><strong>$15.12</strong><span class="fs-6 fw-medium text-black-50 ms-2"><small><s>$134.00</s></small></span></p>
+					<p class="text-black-50 fw-medium d-flex align-items-center mb-3 m-auto">	  
+					  <svg class="me-1" fill="#212529bf" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path></svg>
+					  95% off for 14 hours
+					</p>
+					<a href="#" class="btn text-black-50 text-uppercase fw-medium border border-dark rounded-0 py-2"><small>add to cart</small></a>
+					<form action="" method="post">
+					  <input type="submit" class="mt-3 form-control rounded-0 box-shadow-none py-2 fw-semibold text-white text-uppercase bg-gradient-yellow border-0 mb-4 fs-6" value="BUY NOW">
+					</form>	
+				  </div>
+				  <div class="card card-body text-center rounded-1 mb-4">
+				    <img src="images/tes-1.png" class="h-3-5 w-3-5 m-auto rounded-circle mb-3 mt-3">
+					<h5 class="text-dark-blue fw-semibold mb-1">John Moxely</h5>
+					<p class="text-black-50 mb-2"><small>Web Designer</small></p>
+					<div class="d-flex align-items-center justify-content-center mb-2">
+					  <a href="#"><svg fill="#4b6ea9" height="14" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+					  <a href="#"><svg class="mx-2" fill="#65bbf2" height="15" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></a>
+					  <a href="#"><svg fill="#0077b5" height="15" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></a>
+					  <a href="#"><svg class="mx-2" fill="#ff0000" height="15" width="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg></a>
+					</div>
+				  </div>
+				  <!-- === Categories === -->
+				  <div class="card card-body rounded-1 mb-4">
+				    <h4 class="text-dark-blue fw-bolder mb-3">Categories</h4>
+					<ul class="list-group list-group-flush border-top-0">
+					  <li class="list-group-item">
+					    <a href="#" class="text-decoration-none text-black-50 d-flex justify-content-between align-items-start fw-medium">
+						  <span>App Design</span>
+						  <span>(4)</span>
+						</a>
+					  </li>
+					  <li class="list-group-item">
+					    <a href="#" class="text-decoration-none text-black-50 d-flex justify-content-between align-items-start fw-medium">
+						  <span>Web Design</span>
+						  <span>(8)</span>
+						</a>
+					  </li>
+					  <li class="list-group-item">
+					    <a href="#" class="text-decoration-none text-black-50 d-flex justify-content-between align-items-start fw-medium">
+						  <span>UI-UX Design</span>
+						  <span>(23)</span>
+						</a>
+					  </li>
+					  <li class="list-group-item">
+					    <a href="#" class="text-decoration-none text-black-50 d-flex justify-content-between align-items-start fw-medium">
+						  <span>Game Design</span>
+						  <span>(3)</span>
+						</a>
+					  </li>
+					  <li class="list-group-item">
+					    <a href="#" class="text-decoration-none text-black-50 d-flex justify-content-between align-items-start fw-medium">
+						  <span>Graphic Design</span>
+						  <span>(5)</span>
+						</a>
+					  </li>
+					  <li class="list-group-item">
+					    <a href="#" class="text-decoration-none text-black-50 d-flex justify-content-between align-items-start fw-medium">
+						  <span>Logo Design</span>
+						  <span>(6)</span>
+						</a>
+					  </li>
+					</ul>
+				  </div>
+				  <!-- === Recent Courses === -->
+				  <div class="card card-body rounded-1">
+				    <h4 class="text-dark-blue fw-bolder mb-4">Recent Courses</h4>
+					<div class="d-flex mb-2">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="h-3-5 w-3-5"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+					</div>
+					<hr>
+					<div class="d-flex mb-2">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="h-3-5 w-3-5"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+					</div>
+					<hr>
+					<div class="d-flex mb-2">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="h-3-5 w-3-5"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		   </div>
+		</section>	
+	 </main>
+	 <!-- === footer === -->
+	 <footer>
+	    <section class="bg-sky-400">
+		   <div class="container">
+		     <div class="row row-gap-4 justify-content-center">
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information for</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective undergraduates</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective graduate students</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Businesses/Partnerships</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Visitors/Tourists</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Parliamentarians</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Quick Links</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Contact Searches</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Jobs and Vacancies</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>University images</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Policy</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Terms and Conditions</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information About</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Strategic Plan</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Fees and Funding</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Museums and collections</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Statement on Modern Slavery</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Data privacy / GDPR</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Security Brand</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Statement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Copyright Infringement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Security Issue</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Trademark Notice</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Access Control</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			 </div>
+		   </div>
+		</section>
+		<section class="pt-3 pb-3 bg-white">
+		   <div class="container">
+		     <div class="row text-center">
+			   <p class="text-muted mb-0">&copy;2024 all right reseved by <a href="#" class="text-danger text-decoration-none">Wazihatulla Wasti</a></p>
+			 </div>
+		   </div>
+		</section>   
+	 </footer>
+	 <!-- === Bootstrap min js === -->
+     <script src="js/bootstrap.min.js"></script>
+	 <!-- === swiper js === -->
+	 <script src="js/swiper-bundle.min.js"></script>
+  </body>
+</html>

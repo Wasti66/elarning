@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elearning</title>
+	<link rel="icon" type="text/css" href="images/icon.png">
+	<!-- === Bootstrap min css === -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- === style css === -->
+    <link href="css/style.css" rel="stylesheet">
+	<!-- === global css === -->
+    <link href="css/global.css" rel="stylesheet">
+	<!-- === swiper css === -->
+	  <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+  </head>
+  <body>
+     <!-- === header === -->
+     <header class="sticky-top">
+	    <nav class="navbar navbar-expand-lg bg-white py-3">
+		   <div class="container">
+			  <a class="navbar-brand" href="index.html">
+			    <img src="images/logo.png" class="h-2-5">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" >
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="offcanvas offcanvas-start bg-sky-200" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			    <!-- === offcanvas header === -->
+				<div class="offcanvas-header justify-content-end">
+				  <button type="button" class="btn-close box-shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<!-- === offcanvas body === -->
+				<div class="offcanvas-body">
+				  <ul class="navbar-nav justify-content-end flex-grow-1 gap-2">
+					 <!-- === home === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="index.html" data-bs-toggle="dropdown"><small>home</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="index.html"><small>home 1</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-2.html"><small>home 2</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="home-3.html"><small>home 3</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === about === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="about.html"><small>about</small></a>
+					 </li>
+					 <!-- === courses === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="#" data-bs-toggle="dropdown"><small>courses</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="courses.html"><small>courses</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="coursesDetails.html"><small>course details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === blog === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="blog.html" data-bs-toggle="dropdown"><small>blog</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blog.html"><small>blog</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="blogDetails.html"><small>blog details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === events === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="events.html" data-bs-toggle="dropdown"><small>events</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="events.html"><small>events</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="eventsDetails.html"><small>events details</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === pages === -->
+					 <li class="nav-item dropdown">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500 dropdown-toggle" href="pricing.html" data-bs-toggle="dropdown"><small>pages</small></a>
+					   <ul class="dropdown-menu rounded-0 border-0 shadow-sm">
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="pricing.html"><small>pricing</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="trems&_condition.html"><small>terms & conditions</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="login.html"><small>login</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="singUp.html"><small>sing up</small></a>
+						  </li>
+						  <li>
+							<a class="dropdown-item text-uppercase text-dark-blue hover-red transition-all-500" href="#"><small>thank you</small></a>
+						  </li>
+					   </ul>
+					 </li>
+					 <!-- === contact === -->
+					 <li class="nav-item">
+					   <a class="nav-link text-uppercase text-dark-blue hover-red transition-all-500" href="contact.html"><small>contact</small></a>
+					 </li>
+					 <!-- === login btn === -->
+					 <li class="nav-item p-0">
+					   <a class="btn border border-warning rounded-2
+					   text-dark-blue" data-bs-toggle="modal" data-bs-target="#exampleModal"><small>Login</small></a>
+					   <!-- Modal -->
+					   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+							<div class="modal-content">
+							  <div class="modal-body">
+								<form action="" method="post">
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Email</label>
+									<input type="email" class="form-control rounded-0 box-shadow-none" placeholder="08wasti@gmail.com">
+								  </div>
+								  <div class="mb-4">
+									<label class="fw-medium text-dark mb-1">Password</label>
+									<input type="password" class="form-control rounded-0 box-shadow-none" placeholder="Password">
+								  </div>
+								  <div class="mb-4 form-check">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Remember Password</label>
+								  </div>
+								  <button type="submit" class="btn btn-sm fw-medium bg-gradient-yellow border-0 rounded-pill border-0 text-white px-4  py-2 mb-4">Login</button><br>
+								  <span class="text-dark">Don’t have an account?<a href="singUp.html" class="text-danger text-decoration-none"> Signup Now</a></span>
+							   </form>
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							  </div>
+							</div>
+					    </div>
+					   </div>
+					 </li>
+				  </ul>
+				</div>
+			  </div>
+		   </div>
+		</nav>
+	 </header>
+	 <main>
+	    <!-- === home-3 banar === -->
+		<section class="bg-cover bg-no-repeat bg-position-center" style="background-image:url(images/home-3.jpg)">
+		   <div class="container">
+			  <div class="row row-gap-4 justify-content-between align-items-center">
+			    <div class="col-lg-6 col-md-7 text-center text-md-start">
+				  <h1 class="text-uppercase 
+				  fw-bold display-4" style="color:#ef470d;">educate!</h1>
+				  <h1 class="text-uppercase text-dark-blue 
+				  fw-bold display-4 mb-4">SMART IS GREAT</h1>
+				  <p class="text-body-secondary fw-medium mb-md-5 mb-4"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small></p>
+				  <a href="#" class="btn btn-sm border-0 rounded-pill bg-gradient-yellow text-uppercase text-white py-sm-3 py-2 px-md-5 px-3 fw-medium">Become a tutor</a>
+				</div>
+				<div class="col-lg-4 col-md-5 d-none d-md-block">
+				  <img src="images/login_images.png" class="img-fluid">
+				</div>
+			  </div>
+			</div>  
+		</section>
+		<!-- === services === -->
+		<section>
+		   <div class="container">
+			  <div class="row row-gap-4 justify-content-center">
+				<div class="col-md-4 col-sm-6">
+				  <div class="card text-center bg-transparent border-0">
+				    <img src="images/download.png" class="m-auto" style="width:88px;">
+					<div class="card-body">
+					  <h4><a href="#" class="text-dark-blue fw-bold text-decoration-none">Worldwide Service</a></h4>
+					  <p class="text-secondary fw-medium"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</small></p>
+					  <a href="#" class="text-dark-blue text-uppercase fw-medium"><small>read more</small></a>
+					</div>
+				  </div>
+				</div>
+				<!-- === === -->
+				<div class="col-md-4 col-sm-6">
+				  <div class="card text-center bg-transparent border-0">
+				    <img src="images/download.png" class="m-auto" style="width:88px;">
+					<div class="card-body">
+					  <h4><a href="#" class="text-dark-blue fw-bold text-decoration-none">Worldwide Service</a></h4>
+					  <p class="text-secondary fw-medium"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</small></p>
+					  <a href="#" class="text-dark-blue text-uppercase fw-medium"><small>read more</small></a>
+					</div>
+				  </div>
+				</div>
+				<!-- === === -->
+				<div class="col-md-4 col-sm-6">
+				  <div class="card text-center bg-transparent border-0">
+				    <img src="images/download.png" class="m-auto" style="width:88px;">
+					<div class="card-body">
+					  <h4><a href="#" class="text-dark-blue fw-bold text-decoration-none">Worldwide Service</a></h4>
+					  <p class="text-secondary fw-medium"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</small></p>
+					  <a href="#" class="text-dark-blue text-uppercase fw-medium"><small>read more</small></a>
+					</div>
+				  </div>
+				</div>
+			  </div>	
+		   </div>	
+		</section>
+		<!-- === our working process === -->
+		<section>
+		   <div class="container">
+			  <div class="row justify-content-center text-center mb-5">
+			     <div class="col-lg-6 col-md-10">
+			       <h6 class="text-uppercase mb-4 text-danger" style="letter-spacing: 2px;">work process</h6>
+				   <h1 class="text-dark-blue fw-bold mb-md-5">We Work Best When We Work Together</h1>
+			     </div>
+			  </div>
+			  <div class="row row-gap-4">
+			    <div class="col-md-6">
+				  <div class="card card-body shadow border-0 main">
+				    <h3 class="mb-5 mt-3 text-center"><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">For Student</a></h3>
+					<div class="d-flex mb-4 after-line card-hover">
+					  <div class="flex-shrink-0">
+						<div class="bg-sky-400 rounded-circle h-4-5 w-4-5 d-flex reg">
+						  <img src="images/msg.png" class="img-fluid m-auto">
+						</div>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h4><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">Worldwide Service</a></h4>
+						<p class="text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					  </div>
+					</div>
+					<div class="d-flex mb-4 after-line card-hover">
+					  <div class="flex-shrink-0">
+						<div class="bg-sky-400 rounded-circle h-4-5 w-4-5 d-flex reg">
+						  <img src="images/msg.png" class="img-fluid m-auto">
+						</div>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h4><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">Worldwide Service</a></h4>
+						<p class="text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					  </div>
+					</div>
+					<div class="d-flex mb-4 after-line card-hover">
+					  <div class="flex-shrink-0">
+						<div class="bg-sky-400 rounded-circle h-4-5 w-4-5 d-flex reg">
+						  <img src="images/msg.png" class="img-fluid m-auto">
+						</div>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h4><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">Worldwide Service</a></h4>
+						<p class="text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-6">
+				  <div class="card card-body shadow border-0 main">
+				    <h3 class="mb-5 mt-3 text-center"><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">For Tutorasfa</a></h3>
+					<div class="d-flex mb-4 after-line card-hover">
+					  <div class="flex-shrink-0">
+						<div class="bg-sky-400 rounded-circle h-4-5 w-4-5 d-flex reg">
+						  <img src="images/msg.png" class="img-fluid m-auto">
+						</div>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h4><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">Worldwide Service</a></h4>
+						<p class="text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					  </div>
+					</div>
+					<div class="d-flex mb-4 after-line card-hover">
+					  <div class="flex-shrink-0">
+						<div class="bg-sky-400 rounded-circle h-4-5 w-4-5 d-flex reg">
+						  <img src="images/msg.png" class="img-fluid m-auto">
+						</div>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h4><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">Worldwide Service</a></h4>
+						<p class="text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					  </div>
+					</div>
+					<div class="d-flex mb-4 after-line card-hover">
+					  <div class="flex-shrink-0">
+						<div class="bg-sky-400 rounded-circle h-4-5 w-4-5 d-flex reg">
+						  <img src="images/msg.png" class="img-fluid m-auto">
+						</div>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+						<h4><a href="#" class="text-dark-blue fw-bold text-decoration-none hover-red transition-all-500">Worldwide Service</a></h4>
+						<p class="text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		   </div>
+		</section>
+		<!-- === TESTIMONIALS === -->
+		<section class="bg-sky-400">
+		   <div class="container">
+		     <div class="row row-gap-4 justify-content-between">
+			   <div class="col-md-5">
+			      <h1 class="text-dark-blue fw-bold mb-md-5">
+				  Find The<br>Right Tutor Here </h1>
+			   </div>
+			   <div class="col-md-4">
+			      <form action="" method="post" class="mb-4">
+					 <div class="input-group mb-3">
+						<input type="text" class="form-control box-shadow-none py-3 fw-semibold border-end-0 bg-transparent" placeholder="Search your subject">
+						<button type="submit" class="btn border border-start-0">
+						  <svg fill="#83868c" height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+						</button>
+					 </div>
+				  </form>
+			   </div>
+			 </div>
+			 <!-- === === -->
+			 <div class="row row-gap-4 justify-content-between">
+			   <div class="col-md-7">
+			     <div class="card border-0 bg-transparent">
+				   <iframe class="object-fit-cover" width="100%" height="315" src="https://www.youtube.com/embed/DHGhFJZLKMs?si=Xc0AOYbNdap_eSYu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+				   <div class="card-body mt-3 px-0">
+				     <div class="row row-gap-4 justify-content-between 
+					 align-items-center">
+					   <div class="col-lg-7">
+					     <div class="d-flex">
+						  <div class="flex-shrink-0">
+							<a href="#"><img src="images/3.c1d049f6.jpg" class="h-3-5 w-3-5 rounded-circle"></a>
+						  </div>
+						  <div class="flex-grow-1 ms-3">
+							<a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+							<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component.</small></p>
+						  </div>
+					    </div>
+					   </div>
+					   <div class="col-lg-4 text-end">
+					     <h5 class="fw-semibold text-dark-blue">$15<span class="text-secondary fs-6">USD/Hr</span></h5>
+						 <a href="#" class="btn border-0 bg-gradient-yellow text-uppercase text-white rounded-0">Hire now</a>
+					   </div>
+					 </div>
+				   </div>
+				 </div>
+			   </div>
+			   <div class="col-lg-4 col-md-5">
+			     <div class="card card-body border-0 overflow-auto" style="height:450px;">
+				   <div class="d-flex mb-3">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="card-img-top rounded-0"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+				   </div>
+				   <div class="d-flex mb-3">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="card-img-top rounded-0"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+				   </div>
+				   <div class="d-flex mb-3">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="card-img-top rounded-0"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+				   </div>
+				   <div class="d-flex mb-3">
+					  <div class="flex-shrink-0">
+						<a href="#"><img src="images/3.c1d049f6.jpg" class="card-img-top rounded-0"></a>
+					  </div>
+					  <div class="flex-grow-1 ms-3">
+					    <a href="#" class="text-decoration-none text-dark fw-semibold"><h5 class="mb-1">John Moxely</h5></a>
+						<p class="text-black-50 fw-medium mb-0"><small>This is some content from a media component. You can replace this with any content and adjust it as needed.</small></p>
+					  </div>
+				   </div>
+				 </div>
+			   </div>
+			 </div>
+		   </div>
+		</section>
+		<!-- === === -->
+		<section class="bg-dark-blue">
+		   <div class="container">
+			 <div class="row justify-content-center justify-content-md-between align-items-center">
+			     <div class="col-auto text-md-left text-center">
+				   <h1 class="text-white fw-bolder mb-3">Request A Discount</h1> 
+				   <h5 class="text-white fw-medium">Get Upto 50% Discount Over All Courses</h5> 
+			     </div>
+				 <div class="col-auto">
+				   <a href="#" class="btn btn-sm border-0 rounded-pill bg-gradient-yellow text-uppercase text-white py-3 px-5 fw-medium">apply now</a> 
+			     </div>
+			 </div>
+		   </div>		
+		</section>
+		<!-- === WHAT’S NEW(blog post) === -->
+		<section>
+		   <div class="container">
+		       <div class="row justify-content-center text-center mb-5">
+			     <div class="col-lg-6 col-md-10">
+			        <h6 class="text-uppercase mb-4 text-danger" style="letter-spacing: 2px;">WHAT’S NEW</h6>
+				    <h1 class="text-dark-blue fw-bold">Every Single Update From 
+					Our Blog Page</h1>
+			      </div>
+			   </div>
+			   <!-- === WHAT’S NEW blog card === -->
+			   <div class="row row-gap-4">
+			     <!-- === NEW blog card 1 === -->
+			     <div class="col-md-4 col-sm-6">
+				   <div class="card border-0">
+				     <img src="images/1.1b88ef39.jpg" class="card-img-top rounded-0">
+					 <div class="card-body shadow ms-4 rounded-3 bg-white" style="margin-top:-60px">
+					      <div class="d-flex align-items-center mb-1 text-muted">
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small class="me-2">CREATIVE |</small>
+							  </a>
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>02 JULY, 2024</small>
+							  </a>	
+						  </div>
+					      <h4 class="fw-bold mb-5">
+						    <a href="#" class="text-dark-blue text-decoration-none hover-red transition-all-500">Facere repellat prov ident occaecati</a>
+						  </h4>
+						  <div class="d-flex align-items-center justify-content-between mb-2 text-muted">
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>
+								   <svg style="margin-top:-3px;" fill="#83868c" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 448 512"><path d="M50.7 58.5L0 160H208V32H93.7C75.5 32 58.9 42.3 50.7 58.5zM240 160H448L397.3 58.5C389.1 42.3 372.5 32 354.3 32H240V160zm208 32H0V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192z"/></svg>	
+								   <span class="ms-2">CREATIVE</span>
+								</small>
+							  </a>
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>
+								   <svg style="margin-top:-3px;" fill="#83868c" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 512 512"><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/></svg>	
+								   <span class="ms-2">2 COMMENTS</span>
+								</small>
+							  </a>	
+						  </div>
+					   </div>
+				   </div>
+				 </div>
+				 <!-- === NEW blog card 2 === -->
+			     <div class="col-md-4 col-sm-6">
+				   <div class="card border-0">
+				     <img src="images/2.d2a95dab.jpg" class="card-img-top rounded-0">
+					 <div class="card-body shadow ms-4 rounded-3 bg-white" style="margin-top:-60px">
+					      <div class="d-flex align-items-center mb-1 text-muted">
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small class="me-2">CREATIVE |</small>
+							  </a>
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>02 JULY, 2024</small>
+							  </a>	
+						  </div>
+					      <h4 class="fw-bold mb-5">
+						    <a href="#" class="text-dark-blue text-decoration-none hover-red transition-all-500">Facere repellat prov ident occaecati</a>
+						  </h4>
+						  <div class="d-flex align-items-center justify-content-around mb-2 text-muted">
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>
+								   <svg style="margin-top:-3px;" fill="#83868c" xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 448 512"><path d="M50.7 58.5L0 160H208V32H93.7C75.5 32 58.9 42.3 50.7 58.5zM240 160H448L397.3 58.5C389.1 42.3 372.5 32 354.3 32H240V160zm208 32H0V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192z"/></svg>	
+								   <span class="ms-3">CREATIVE</span>
+								</small>
+							  </a>
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>
+								   <svg fill="#212529bf" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/></svg>	
+								   <span class="ms-3">2 COMMENTS</span>
+								</small>
+							  </a>	
+						  </div>
+					   </div>
+				   </div>
+				 </div>
+				 <!-- === NEW blog card 3 === -->
+			     <div class="col-md-4 col-sm-6">
+				   <div class="card border-0">
+				     <img src="images/3.7891d519.jpg" class="card-img-top rounded-0">
+					 <div class="card-body shadow ms-4 rounded-3 bg-white" style="margin-top:-60px">
+					      <div class="d-flex align-items-center mb-1 text-muted">
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small class="me-2">CREATIVE |</small>
+							  </a>
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>02 JULY, 2024</small>
+							  </a>	
+						  </div>
+					      <h4 class="fw-bold mb-5">
+						    <a href="#" class="text-dark-blue text-decoration-none hover-red transition-all-500">Facere repellat prov ident occaecati</a>
+						  </h4>
+						  <div class="d-flex align-items-center justify-content-around mb-2 text-muted">
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>
+								   <svg style="margin-top:-3px;" fill="#83868c" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 448 512"><path d="M50.7 58.5L0 160H208V32H93.7C75.5 32 58.9 42.3 50.7 58.5zM240 160H448L397.3 58.5C389.1 42.3 372.5 32 354.3 32H240V160zm208 32H0V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192z"/></svg>	
+								   <span class="ms-3">CREATIVE</span>
+								</small>
+							  </a>
+							  <a class="d-flex align-items-center text-muted text-decoration-none" href="#">
+								<small>
+								   <svg fill="#212529bf" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512"><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/></svg>	
+								   <span class="ms-3">2 COMMENTS</span>
+								</small>
+							  </a>	
+						  </div>
+					   </div>
+				   </div>
+				 </div>
+			   </div>
+		   </div>
+		</section>
+		<!-- === Newsletter Subscription === -->
+		<section class="bg-dark-blue">
+		   <div class="container">
+			 <div class="row justify-content-center text-center mb-5">
+			     <div class="col-lg-8">
+				    <h1 class="text-white fw-bold">Newsletter Subscription</h1>
+					<p class="text-white lead fw-semibold mb-5">Get Updated With Latest News</p>
+					<form action="" method="post">
+						<div class="input-group">
+						  <input type="text" class="form-control 
+						  box-shadow-none border-0 fs-6 text-muted rounded-start-pill ps-4" placeholder="Enter your mail">
+						  <!-- === submit button === -->
+						  <span class="input-group-text bg-gradient-yellow rounded-end-pill border-0">
+							<button type="submit" class="form-control box-shadow-none border-0 bg-transparent px-4 d-flex align-items-center">
+							  <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+							  <span class="text-white fw-semibold ms-2 text-uppercase">Subscribe</span>
+							</button>
+						  </span>
+					   </div>
+				   </form>
+			    </div>
+			 </div>
+		   </div>		
+		</section>
+		<!-- === contact=== -->
+		<section class="bg-sky-200">
+		   <div class="container">
+			 <div class="row justify-content-center text-center mb-5">
+			    <div class="col-lg-6 col-md-10">
+			       <h6 class="text-uppercase mb-4 text-danger" style="letter-spacing: 2px;">CONTACT US</h6>
+				   <h1 class="text-dark-blue fw-bold mb-md-5">If You Have Any Query, Pls Ask Me</h1>
+			    </div> 
+			 </div>
+			 <div class="row justify-content-around row-gap-4">
+			     <div class="col-lg-10">
+				   <form action="" method="post">
+				     <div class="row row-gap-4 mb-4">
+					   <div class="col-sm-6">
+						 <input type="text" name="" class="form-control box-shadow-none rounded-0 py-2" placeholder="First name">	
+					   </div>
+					   <div class="col-sm-6">
+						 <input type="text" name="" class="form-control box-shadow-none rounded-0 py-2" placeholder="Last name">	
+					   </div>
+					   <div class="col-sm-6">
+						 <input type="email" name="" class="form-control box-shadow-none rounded-0 py-2" placeholder="Your email">	
+					   </div>
+					   <div class="col-sm-6">
+						 <input type="number" name="" class="form-control box-shadow-none rounded-0 py-2" placeholder="Your phone">	
+					   </div>
+					 </div>
+					 <textarea class="mb-4 form-control box-shadow-none rounded-0" placeholder="Your message" rows="8"></textarea>
+					 <div class="text-center">
+					   <button type="submit" class="btn btn-sm fw-medium bg-gradient-yellow border-0 rounded-pill border-0 text-white px-md-5 px-4 py-md-3 py-2">SEND MESSAGE</button>
+					 </div>
+				   </form>
+				 </div>
+			</div>
+		   </div>		
+		</section>	
+	 </main>
+	 <!-- === footer === -->
+	 <footer>
+	    <section class="bg-sky-400">
+		   <div class="container">
+		     <div class="row row-gap-4 justify-content-center">
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information for</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective undergraduates</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Prospective graduate students</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Businesses/Partnerships</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Visitors/Tourists</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Parliamentarians</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Quick Links</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Contact Searches</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Jobs and Vacancies</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>University images</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Policy</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Terms and Conditions</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			   <div class="col-lg-6">
+			     <div class="row">
+				   <div class="col-sm-6 mb-sm-0 mb-3">
+				     <h3 class="fw-bold text-dark-blue mb-4">Information About</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Strategic Plan</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Fees and Funding</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Museums and collections</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Statement on Modern Slavery</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Data privacy / GDPR</small>
+						</a>
+					 </ul> 
+				   </div>
+				   <div class="col-sm-6">
+				     <h3 class="fw-bold text-dark-blue mb-4">Security Brand</h3>
+					 <ul class="nav flex-column">
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Privacy Statement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Copyright Infringement</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Report Security Issue</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue mb-1 transition-all-500">
+						  <small>Trademark Notice</small>
+						</a>
+						<a href="#" class="text-decoration-none text-muted-150 hover-text-dark-blue transition-all-500">
+						  <small>Access Control</small>
+						</a>
+					 </ul> 
+				   </div>
+				 </div>
+			   </div>
+			 </div>
+		   </div>
+		</section>
+		<section class="pt-3 pb-3 bg-white">
+		   <div class="container">
+		     <div class="row text-center">
+			   <p class="text-muted mb-0">&copy;2024 all right reseved by <a href="#" class="text-danger text-decoration-none">Wazihatulla Wasti</a></p>
+			 </div>
+		   </div>
+		</section>   
+	 </footer>
+	 <!-- === Bootstrap min js === -->
+     <script src="js/bootstrap.min.js"></script>
+	 <!-- === swiper js === -->
+	 <script src="js/swiper-bundle.min.js"></script>
+	 <script>
+	      const countDownClock = (number = 100, format = 'seconds') => {
+		  const d = document;
+		  const daysElement = d.querySelector('.days');
+		  const hoursElement = d.querySelector('.hours');
+		  const minutesElement = d.querySelector('.minutes');
+		  const secondsElement = d.querySelector('.seconds');
+		  let countdown;
+		  convertFormat(format);
+		  function convertFormat(format) {
+			switch(format) {
+			  case 'seconds':
+				return timer(number);
+			  case 'minutes':
+				return timer(number * 60);
+				case 'hours':
+				return timer(number * 60 * 60);
+			  case 'days':
+				return timer(number * 60 * 60 * 24);             
+			}
+		  }
+		  function timer(seconds) {
+			const now = Date.now();
+			const then = now + seconds * 1000;
+
+			countdown = setInterval(() => {
+			  const secondsLeft = Math.round((then - Date.now()) / 1000);
+
+			  if(secondsLeft <= 0) {
+				clearInterval(countdown);
+				return;
+			  };
+
+			  displayTimeLeft(secondsLeft);
+
+			},1000);
+		  }
+		  function displayTimeLeft(seconds) {
+			daysElement.textContent = Math.floor(seconds / 86400);
+			hoursElement.textContent = Math.floor((seconds % 86400) / 3600);
+			minutesElement.textContent = Math.floor((seconds % 86400) % 3600 / 60);
+			secondsElement.textContent = seconds % 60 < 10 ? `0${seconds % 60}` : seconds % 60;
+		  }
+		}
+		countDownClock(20, 'days');
+	 </script>
+	 <script>
+		var swiper = new Swiper(".populer-course", {
+		  slidesPerView: 1,
+		  spaceBetween: 10,
+		  autoplay:true,
+		   navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		  },
+		  breakpoints: {
+			576: {
+			  slidesPerView: 1,
+			  spaceBetween: 30,
+			},
+			768: {
+			  slidesPerView: 2,
+			  spaceBetween: 20,
+			},
+			1200: {
+			  slidesPerView: 3,
+			  spaceBetween: 20,
+			},
+		  },
+		});
+	 </script>
+  </body>
+</html>

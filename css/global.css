@@ -1,0 +1,77 @@
+/*-----------------------------------
+----Global CSS For All Projects------
+-----------------------------------*/
+
+/*=======Global CSS ==========*/
+
+/*A*/
+
+/*B*/
+.bg-cover{
+	background-size:cover;
+}
+.bg-no-repeat{
+	background-repeat:no-repeat;
+}
+.bg-position-center{
+	background-position:center;
+}
+.bg-attachment-fixed{
+	background-attachment:fixed;
+}
+.box-shadow-none{
+	box-shadow:none!important;
+}
+.bg-gradient-yellow{
+	background: linear-gradient(90deg,#ef3e0f,#ffb800);
+}
+.bg-dark-blue{
+	background-color:#0c2e60;
+}
+.bg-sky-200{
+	background-color:#f8f9fa;
+}
+.bg-sky-400{
+	background-color:#f3f3f3;
+}
+/*t*/
+.text-dark-blue{
+	color:#0c2e60;
+}
+.text-muted-150{
+	color:#999;
+}
+.hover-text-dark-blue:hover{
+	color:#0c2e60;
+}
+.hover-red:hover{
+	color:red!important;
+}
+.transition-all-500{
+	transition:all 0.5s;
+}
+/*w*/
+.w-2-5{
+	width:2.5rem!important;
+}
+.w-3-5{
+	width:3.5rem!important;
+}
+.w-4-5{
+	width:4.5rem!important;
+}
+/*H*/
+.h-2-5{
+	height:2.5rem!important;
+}
+.h-3-5{
+	height:3.5rem!important;
+}
+.h-4-5{
+	height:4.5rem!important;
+}
+/*s*/
+.swiper-button-prev:after,
+.swiper-button-next:after{
+		content: ''!important;
+}
